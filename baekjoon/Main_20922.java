@@ -14,9 +14,9 @@ public class Main_20922 {
 		int K = Integer.parseInt(st.nextToken());
 		int[] a = new int[N];
 		st = new StringTokenizer(br.readLine());
-		for(int i=0; i<N; i++) {
+		for(int i=0; i<N; i++) 
 			a[i] = Integer.parseInt(st.nextToken());
-		}
+		
 		int cnt[] = new int[100001];
 		int ans = 0;
 		int low=0, high=0;
